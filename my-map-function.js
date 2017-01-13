@@ -20,15 +20,3 @@ function map(array, cb) {
 console.log(map(data, function(word) {
     return word.length;
 }));
-
-
-
-
-/*
-var numbers = [1, 5, 10, 15];
-var roots = numbers.map(function(x){
-   return x * 2;
-});
-// roots is now [2, 10, 20, 30]
-// numbers is still [1, 5, 10, 15]
-*/
